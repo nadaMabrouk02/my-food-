@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+/* navbar */
+.navBar {
+    background-color: darkred;
+    color: #fff;
+    overflow: auto;
+}
+
+.navBar h1 {
+    padding: 20px;
+    float: left;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBar ul {
+    float: right;
+    list-style: none;
+}
+
+.navBar ul li {
+    display: inline-block;
+}
+
+.navBar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.navBar ul li a:hover {
+    background-color: #ffffff5e;
+}
+
+/* end navbar */
+
+/* home page */
+.home {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5)70%, rgb(0, 0, 0, 0.5)30%), url(fast-food.png);
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+
+.home .title {
+    padding: 30px;
+}
+
+.home .title h2 {
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.home .title i {
+    transform: translate(740px, -28px);
+    color: darkred;
+    font-size: 36px;
+}
+
+.home .title pre {
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.home .title a {
+    display: inline-block;
+    margin: 20px;
+    border: darkred solid 2px;
+    background-color: #ffffff;
+    color: darkred;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-size: 25px;
+    transition: all 1s;
+}
+
+.home .title a:hover {
+    color: white;
+    background-color: darkred;
+    border: white solid 2px;
+    ;
+}
+
+/* end home page */
+
+/* start gallery */
+.gallery h2 {
+    padding: 50px;
+    text-align: center;
+    color: darkred;
+    font-size: 35px;
+}
+
+.gallery .images {
+    width: 260px;
+    height: 300px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.gallery .images img {
+    border: wheat solid 2px;
+}
+
+.gallery .images .diff {
+    border-left: wheat solid 6px;
+    border-right: rgba(245, 222, 179, 0.61) solid 6px;
+}
+
+/* end gallery */
+
+/* start menu */
+.menu h3 {
+    padding: 50px;
+    text-align: center;
+    color: darkred;
+    font-size: 35px;
+}
+
+.menu .cards {
+    display: flex;
+    height: 400px;
+}
+
+.menu .cards .card1 img {
+    width: 335px;
+    height: 250px;
+}
+
+.menu .cards .card1 {
+    border: darkred solid 1px;
+    height: 350px;
+    width: 25%;
+}
+
+.menu .cards .card1 h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 17px;
+    color: darkred;
+}
+
+.menu .cards .card1 h5 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 17px;
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu .cards .card2 img {
+    width: 336px;
+    height: 250px;
+}
+
+.menu .cards .card2 {
+    border: darkred solid 1px;
+    height: 350px;
+    width: 25%;
+}
+
+.menu .cards .card2 h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 17px;
+    color: darkred;
+}
+
+.menu .cards .card2 h5 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 17px;
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu .cards .card3 img {
+    width: 340px;
+    height: 250px;
+}
+
+.menu .cards .card3 {
+    border: darkred solid 1px;
+    height: 350px;
+    width: 25%;
+}
+
+.menu .cards .card3 h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 17px;
+    color: darkred;
+}
+
+.menu .cards .card3 h5 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 17px;
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu .cards .card4 img {
+    width: 335px;
+    height: 250px;
+}
+
+.menu .cards .card4 {
+    border: darkred solid 1px;
+    height: 350px;
+    width: 25%;
+}
+
+.menu .cards .card4 h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 17px;
+    color: darkred;
+}
+
+.menu .cards .card4 h5 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 17px;
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* end menu */
+
+/* start contact */
+#contact h3 {
+    padding: 50px;
+    text-align: center;
+    color: darkred;
+    font-size: 35px;
+}
+
+#contact form input {
+    display: block;
+    margin: auto;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: 1px darkred solid;
+    border-left: transparent;
+    padding: 10px 10px 3px 10px;
+    font-size: 22px;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact .fa-user-large {
+    font-size: 27px;
+    transform: translate(-170px, 39px);
+}
+
+.contact .fa-at {
+    font-size: 27px;
+    transform: translate(-170px, 39px);
+}
+
+.contact textarea {
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: 1px darkred solid;
+    border-left: transparent;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact .fa-envelope {
+    font-size: 27px;
+    transform: translate(-10px, -20px);
+}
+
+.contact form .send {
+    display: inline-block;
+    margin-top: 20px;
+    border: darkred solid 2px;
+    background-color: #ffffff;
+    color: darkred;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-size: 25px;
+    transition: all 1s;
+}
+
+.contact form .send:hover {
+    color: white;
+    background-color: darkred;
+    border: white solid 2px;
+    ;
+}
+
+/* end contact */
